@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <header class="container">
+      <h1>Our Pricing</h1>
+
+      <div class="flex row">
+        <h2 class="light-gray">Annually</h2>
+        <label class="switch">
+          <input type="checkbox" id="toggle" />
+          <span class="slider round"></span>
+        </label>
+        <h2 class="light-gray">Monthly</h2>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="flex" id="flexy">
+        <div class="card">
+          <h2>Basic</h2>
+          <h2 class="money annually line-bottom">&dollar;199.99</h2>
+          <h2 class="money monthly line-bottom">&dollar;19.99</h2>
+
+          <p class="line-bottom">500 GB Storage</p>
+
+          <p class="line-bottom">2 Users Allowed</p>
+
+          <p class="line-bottom">Send up to 3 GB</p>
+
+          <button class="btn">Learn More</button>
+        </div>
+
+        <div class="card purple">
+          <h2>Professional</h2>
+          <h2 class="money annually line-bottom">&dollar;249.99</h2>
+          <h2 class="money monthly line-bottom">&dollar;24.99</h2>
+
+          <p class="line-bottom">1 TB Storage</p>
+
+          <p class="line-bottom">5 Users Allowed</p>
+
+          <p class="line-bottom">Send up to 10 GB</p>
+
+          <button class="btn btn-white">Learn More</button>
+        </div>
+
+        <div class="card right">
+          <h2>Master</h2>
+          <h2 class="money annually line-bottom">&dollar;399.99</h2>
+          <h2 class="money monthly line-bottom">&dollar;39.99</h2>
+
+          <p class="line-bottom">2 TB Storage</p>
+
+          <p class="line-bottom">10 Users Allowed</p>
+
+          <p class="line-bottom">Send up to 20 GB</p>
+
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
